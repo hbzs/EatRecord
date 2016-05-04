@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="etI-q2-S0d">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--饮食记录-->
+        <scene sceneID="XfI-VN-eN9">
+            <objects>
+                <tableViewController id="LjS-6e-QQk" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="1F2-sT-Kjm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="LjS-6e-QQk" id="fqP-bo-LbQ"/>
+                            <outlet property="delegate" destination="LjS-6e-QQk" id="iYA-pG-OfT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="饮食记录" id="tWv-b5-lnp"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wox-5j-5Id" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1409" y="56"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nIY-eY-Uso">
+            <objects>
+                <navigationController id="etI-q2-S0d" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="igP-6a-COo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="LjS-6e-QQk" kind="relationship" relationship="rootViewController" id="DQj-JJ-Qpu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TQu-5b-Jrt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="589" y="56"/>
+        </scene>
+    </scenes>
+</document>
