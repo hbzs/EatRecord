@@ -1,0 +1,27 @@
+{
+  "name": "eat_record",
+  "version": "1.0.0",
+  "description": "正在减肥的我决定写一个《饮食记录》 app，一切以快速开发为主，所以不保证代码质量",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbzs/EatRecord.git"
+  },
+  "author": "hbzs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hbzs/EatRecord/issues"
+  },
+  "homepage": "https://github.com/hbzs/EatRecord#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.1.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
