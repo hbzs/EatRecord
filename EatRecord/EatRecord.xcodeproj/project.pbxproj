@@ -89,6 +89,7 @@
 				8AF3C2621CC5B49A00155774 /* Sources */,
 				8AF3C2631CC5B49A00155774 /* Frameworks */,
 				8AF3C2641CC5B49A00155774 /* Resources */,
+				8A20C4D11CDB8F0A006BEE38 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -143,6 +144,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A20C4D11CDB8F0A006BEE38 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Scripts/iconVersioning.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8AF3C2621CC5B49A00155774 /* Sources */ = {
@@ -300,6 +317,7 @@
 				8AF3C27F1CC5B49A00155774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
