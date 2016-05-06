@@ -1,0 +1,15 @@
+//
+//  EatRecord-PrefixHeader.pch
+//  EatRecord
+//
+//  Created by hourunjing on 16/5/6.
+//  Copyright © 2016年 hourunjing. All rights reserved.
+//
+
+#ifndef EatRecord_PrefixHeader_pch
+#define EatRecord_PrefixHeader_pch
+
+#import "UIFont+HBZAdditions.h"
+#import "UIColor+HBZContentColor.h"
+
+#endif /* EatRecord_PrefixHeader_pch */

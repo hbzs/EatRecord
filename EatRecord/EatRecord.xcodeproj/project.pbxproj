@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A958E761CDC12370013DE4C /* UIColor+HBZAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A958E751CDC12370013DE4C /* UIColor+HBZAdditions.m */; };
+		8A958E791CDC124C0013DE4C /* UIFont+HBZAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A958E781CDC124C0013DE4C /* UIFont+HBZAdditions.m */; };
+		8A958E7C1CDC12BA0013DE4C /* UIColor+HBZContentColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A958E7B1CDC12BA0013DE4C /* UIColor+HBZContentColor.m */; };
+		8AA35CAC1CDCE538008D75B4 /* StyleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA35CAB1CDCE538008D75B4 /* StyleConfig.m */; };
+		8AA35CAE1CDCEA86008D75B4 /* images-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AA35CAD1CDCEA86008D75B4 /* images-2.jpg */; };
+		8AA35CB21CDCED19008D75B4 /* EatRecordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA35CB11CDCED19008D75B4 /* EatRecordListViewController.m */; };
 		8AF3C26B1CC5B49A00155774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3C26A1CC5B49A00155774 /* main.m */; };
 		8AF3C26E1CC5B49A00155774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3C26D1CC5B49A00155774 /* AppDelegate.m */; };
 		8AF3C2711CC5B49A00155774 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3C2701CC5B49A00155774 /* ViewController.m */; };
@@ -16,6 +22,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A958E741CDC12370013DE4C /* UIColor+HBZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HBZAdditions.h"; sourceTree = "<group>"; };
+		8A958E751CDC12370013DE4C /* UIColor+HBZAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HBZAdditions.m"; sourceTree = "<group>"; };
+		8A958E771CDC124C0013DE4C /* UIFont+HBZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HBZAdditions.h"; sourceTree = "<group>"; };
+		8A958E781CDC124C0013DE4C /* UIFont+HBZAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HBZAdditions.m"; sourceTree = "<group>"; };
+		8A958E7A1CDC12BA0013DE4C /* UIColor+HBZContentColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HBZContentColor.h"; sourceTree = "<group>"; };
+		8A958E7B1CDC12BA0013DE4C /* UIColor+HBZContentColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HBZContentColor.m"; sourceTree = "<group>"; };
+		8AA35CA81CDCE294008D75B4 /* EatRecord-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EatRecord-PrefixHeader.pch"; sourceTree = "<group>"; };
+		8AA35CAA1CDCE538008D75B4 /* StyleConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleConfig.h; sourceTree = "<group>"; };
+		8AA35CAB1CDCE538008D75B4 /* StyleConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleConfig.m; sourceTree = "<group>"; };
+		8AA35CAD1CDCEA86008D75B4 /* images-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpg"; sourceTree = "<group>"; };
+		8AA35CB01CDCED19008D75B4 /* EatRecordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EatRecordListViewController.h; sourceTree = "<group>"; };
+		8AA35CB11CDCED19008D75B4 /* EatRecordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EatRecordListViewController.m; sourceTree = "<group>"; };
 		8AF3C2661CC5B49A00155774 /* EatRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF3C26A1CC5B49A00155774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AF3C26C1CC5B49A00155774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +57,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A20C4D41CDBC9CC006BEE38 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				8AA35CA91CDCE502008D75B4 /* StyleConfig */,
+				8A20C4D61CDBC9F0006BEE38 /* Font */,
+				8A20C4D51CDBC9E1006BEE38 /* Color */,
+			);
+			name = Style;
+			sourceTree = "<group>";
+		};
+		8A20C4D51CDBC9E1006BEE38 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				8A958E741CDC12370013DE4C /* UIColor+HBZAdditions.h */,
+				8A958E751CDC12370013DE4C /* UIColor+HBZAdditions.m */,
+				8A958E7A1CDC12BA0013DE4C /* UIColor+HBZContentColor.h */,
+				8A958E7B1CDC12BA0013DE4C /* UIColor+HBZContentColor.m */,
+			);
+			name = Color;
+			sourceTree = "<group>";
+		};
+		8A20C4D61CDBC9F0006BEE38 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8A958E771CDC124C0013DE4C /* UIFont+HBZAdditions.h */,
+				8A958E781CDC124C0013DE4C /* UIFont+HBZAdditions.m */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		8AA35CA91CDCE502008D75B4 /* StyleConfig */ = {
+			isa = PBXGroup;
+			children = (
+				8AA35CAA1CDCE538008D75B4 /* StyleConfig.h */,
+				8AA35CAB1CDCE538008D75B4 /* StyleConfig.m */,
+			);
+			name = StyleConfig;
+			sourceTree = "<group>";
+		};
+		8AA35CAF1CDCECCA008D75B4 /* EatRecordList */ = {
+			isa = PBXGroup;
+			children = (
+				8AA35CB01CDCED19008D75B4 /* EatRecordListViewController.h */,
+				8AA35CB11CDCED19008D75B4 /* EatRecordListViewController.m */,
+			);
+			name = EatRecordList;
+			sourceTree = "<group>";
+		};
 		8AF3C25D1CC5B49A00155774 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +124,9 @@
 		8AF3C2681CC5B49A00155774 /* EatRecord */ = {
 			isa = PBXGroup;
 			children = (
+				8AA35CAF1CDCECCA008D75B4 /* EatRecordList */,
+				8AA35CAD1CDCEA86008D75B4 /* images-2.jpg */,
+				8A20C4D41CDBC9CC006BEE38 /* Style */,
 				8AF3C26C1CC5B49A00155774 /* AppDelegate.h */,
 				8AF3C26D1CC5B49A00155774 /* AppDelegate.m */,
 				8AF3C26F1CC5B49A00155774 /* ViewController.h */,
@@ -75,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				8AF3C26A1CC5B49A00155774 /* main.m */,
+				8AA35CA81CDCE294008D75B4 /* EatRecord-PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -89,7 +159,9 @@
 				8AF3C2621CC5B49A00155774 /* Sources */,
 				8AF3C2631CC5B49A00155774 /* Frameworks */,
 				8AF3C2641CC5B49A00155774 /* Resources */,
-				8A20C4D11CDB8F0A006BEE38 /* ShellScript */,
+				8A20C4D21CDBC847006BEE38 /* CFBundleVersion */,
+				8A20C4D31CDBC89D006BEE38 /* xcode-version-bump.sh */,
+				8A20C4D11CDB8F0A006BEE38 /* iconVersioning.sh */,
 			);
 			buildRules = (
 			);
@@ -137,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA35CAE1CDCEA86008D75B4 /* images-2.jpg in Resources */,
 				8AF3C2791CC5B49A00155774 /* LaunchScreen.storyboard in Resources */,
 				8AF3C2761CC5B49A00155774 /* Assets.xcassets in Resources */,
 				8AF3C2741CC5B49A00155774 /* Main.storyboard in Resources */,
@@ -146,18 +219,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8A20C4D11CDB8F0A006BEE38 /* ShellScript */ = {
+		8A20C4D11CDB8F0A006BEE38 /* iconVersioning.sh */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = iconVersioning.sh;
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Scripts/iconVersioning.sh\"";
+		};
+		8A20C4D21CDBC847006BEE38 /* CFBundleVersion */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = CFBundleVersion;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+		8A20C4D31CDBC89D006BEE38 /* xcode-version-bump.sh */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "xcode-version-bump.sh";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "VERSIONNUM=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nNEWSUBVERSION=`echo $VERSIONNUM | awk -F \".\" '{print $3}'`\nNEWSUBVERSION=$(($NEWSUBVERSION + 1))\nNEWVERSIONSTRING=`echo $VERSIONNUM | awk -F \".\" '{print $1 \".\" $2 \".'$NEWSUBVERSION'\" }'`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $NEWVERSIONSTRING\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -166,8 +268,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A958E761CDC12370013DE4C /* UIColor+HBZAdditions.m in Sources */,
 				8AF3C2711CC5B49A00155774 /* ViewController.m in Sources */,
+				8A958E791CDC124C0013DE4C /* UIFont+HBZAdditions.m in Sources */,
 				8AF3C26E1CC5B49A00155774 /* AppDelegate.m in Sources */,
+				8AA35CB21CDCED19008D75B4 /* EatRecordListViewController.m in Sources */,
+				8A958E7C1CDC12BA0013DE4C /* UIColor+HBZContentColor.m in Sources */,
+				8AA35CAC1CDCE538008D75B4 /* StyleConfig.m in Sources */,
 				8AF3C26B1CC5B49A00155774 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "EatRecord/EatRecord-PrefixHeader.pch";
 				INFOPLIST_FILE = EatRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbzshome.EatRecord;
@@ -291,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "EatRecord/EatRecord-PrefixHeader.pch";
 				INFOPLIST_FILE = EatRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbzshome.EatRecord;
