@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60F20D3AEBB354F10878A8E5 /* libPods-EatRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 164BE3859DEF0A68A529FF5C /* libPods-EatRecord.a */; };
 		8A958E761CDC12370013DE4C /* UIColor+HBZAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A958E751CDC12370013DE4C /* UIColor+HBZAdditions.m */; };
 		8A958E791CDC124C0013DE4C /* UIFont+HBZAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A958E781CDC124C0013DE4C /* UIFont+HBZAdditions.m */; };
 		8A958E7C1CDC12BA0013DE4C /* UIColor+HBZContentColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A958E7B1CDC12BA0013DE4C /* UIColor+HBZContentColor.m */; };
 		8AA35CAC1CDCE538008D75B4 /* StyleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA35CAB1CDCE538008D75B4 /* StyleConfig.m */; };
 		8AA35CAE1CDCEA86008D75B4 /* images-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AA35CAD1CDCEA86008D75B4 /* images-2.jpg */; };
 		8AA35CB21CDCED19008D75B4 /* EatRecordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA35CB11CDCED19008D75B4 /* EatRecordListViewController.m */; };
+		8AA35CB51CDD6759008D75B4 /* EatRecordListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA35CB41CDD6759008D75B4 /* EatRecordListTableViewCell.m */; };
 		8AF3C26B1CC5B49A00155774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3C26A1CC5B49A00155774 /* main.m */; };
 		8AF3C26E1CC5B49A00155774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3C26D1CC5B49A00155774 /* AppDelegate.m */; };
 		8AF3C2711CC5B49A00155774 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3C2701CC5B49A00155774 /* ViewController.m */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		164BE3859DEF0A68A529FF5C /* libPods-EatRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EatRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E3E58C07E64D7E5527A764 /* Pods-EatRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-EatRecord/Pods-EatRecord.release.xcconfig"; sourceTree = "<group>"; };
 		8A958E741CDC12370013DE4C /* UIColor+HBZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HBZAdditions.h"; sourceTree = "<group>"; };
 		8A958E751CDC12370013DE4C /* UIColor+HBZAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HBZAdditions.m"; sourceTree = "<group>"; };
 		8A958E771CDC124C0013DE4C /* UIFont+HBZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HBZAdditions.h"; sourceTree = "<group>"; };
@@ -34,6 +38,8 @@
 		8AA35CAD1CDCEA86008D75B4 /* images-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpg"; sourceTree = "<group>"; };
 		8AA35CB01CDCED19008D75B4 /* EatRecordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EatRecordListViewController.h; sourceTree = "<group>"; };
 		8AA35CB11CDCED19008D75B4 /* EatRecordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EatRecordListViewController.m; sourceTree = "<group>"; };
+		8AA35CB31CDD6759008D75B4 /* EatRecordListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EatRecordListTableViewCell.h; sourceTree = "<group>"; };
+		8AA35CB41CDD6759008D75B4 /* EatRecordListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EatRecordListTableViewCell.m; sourceTree = "<group>"; };
 		8AF3C2661CC5B49A00155774 /* EatRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF3C26A1CC5B49A00155774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AF3C26C1CC5B49A00155774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,6 +50,7 @@
 		8AF3C2751CC5B49A00155774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AF3C2781CC5B49A00155774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AF3C27A1CC5B49A00155774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4662AA0DE72C6B6B0167149 /* Pods-EatRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EatRecord/Pods-EatRecord.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,12 +58,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F20D3AEBB354F10878A8E5 /* libPods-EatRecord.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0226ECCBC78F00D26E872B2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				164BE3859DEF0A68A529FF5C /* libPods-EatRecord.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3859076F77B34126A60960AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4662AA0DE72C6B6B0167149 /* Pods-EatRecord.debug.xcconfig */,
+				57E3E58C07E64D7E5527A764 /* Pods-EatRecord.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8A20C4D41CDBC9CC006BEE38 /* Style */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +126,8 @@
 			children = (
 				8AA35CB01CDCED19008D75B4 /* EatRecordListViewController.h */,
 				8AA35CB11CDCED19008D75B4 /* EatRecordListViewController.m */,
+				8AA35CB31CDD6759008D75B4 /* EatRecordListTableViewCell.h */,
+				8AA35CB41CDD6759008D75B4 /* EatRecordListTableViewCell.m */,
 			);
 			name = EatRecordList;
 			sourceTree = "<group>";
@@ -110,6 +137,8 @@
 			children = (
 				8AF3C2681CC5B49A00155774 /* EatRecord */,
 				8AF3C2671CC5B49A00155774 /* Products */,
+				3859076F77B34126A60960AF /* Pods */,
+				0226ECCBC78F00D26E872B2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,12 +185,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AF3C27D1CC5B49A00155774 /* Build configuration list for PBXNativeTarget "EatRecord" */;
 			buildPhases = (
+				FCABA9B72368DF45E17BB59C /* 📦 Check Pods Manifest.lock */,
 				8AF3C2621CC5B49A00155774 /* Sources */,
 				8AF3C2631CC5B49A00155774 /* Frameworks */,
 				8AF3C2641CC5B49A00155774 /* Resources */,
 				8A20C4D21CDBC847006BEE38 /* CFBundleVersion */,
 				8A20C4D31CDBC89D006BEE38 /* xcode-version-bump.sh */,
 				8A20C4D11CDB8F0A006BEE38 /* iconVersioning.sh */,
+				50E32717123EDE4F931282BD /* 📦 Embed Pods Frameworks */,
+				61666D2202EDC0B404D77659 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,6 +251,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		50E32717123EDE4F931282BD /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EatRecord/Pods-EatRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61666D2202EDC0B404D77659 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EatRecord/Pods-EatRecord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8A20C4D11CDB8F0A006BEE38 /* iconVersioning.sh */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,6 +323,21 @@
 			shellPath = /bin/sh;
 			shellScript = "VERSIONNUM=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nNEWSUBVERSION=`echo $VERSIONNUM | awk -F \".\" '{print $3}'`\nNEWSUBVERSION=$(($NEWSUBVERSION + 1))\nNEWVERSIONSTRING=`echo $VERSIONNUM | awk -F \".\" '{print $1 \".\" $2 \".'$NEWSUBVERSION'\" }'`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $NEWVERSIONSTRING\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
 		};
+		FCABA9B72368DF45E17BB59C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -268,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA35CB51CDD6759008D75B4 /* EatRecordListTableViewCell.m in Sources */,
 				8A958E761CDC12370013DE4C /* UIColor+HBZAdditions.m in Sources */,
 				8AF3C2711CC5B49A00155774 /* ViewController.m in Sources */,
 				8A958E791CDC124C0013DE4C /* UIFont+HBZAdditions.m in Sources */,
@@ -385,6 +463,7 @@
 		};
 		8AF3C27E1CC5B49A00155774 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4662AA0DE72C6B6B0167149 /* Pods-EatRecord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "EatRecord/EatRecord-PrefixHeader.pch";
@@ -397,6 +476,7 @@
 		};
 		8AF3C27F1CC5B49A00155774 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57E3E58C07E64D7E5527A764 /* Pods-EatRecord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "EatRecord/EatRecord-PrefixHeader.pch";

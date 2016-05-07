@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HBZEatRecordListCell" rowHeight="162" id="SJX-Kc-azB">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HBZEatRecordListCell" rowHeight="162" id="SJX-Kc-azB" customClass="EatRecordListTableViewCell">
                                 <rect key="frame" x="0.0" y="92" width="600" height="162"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SJX-Kc-azB" id="gD0-eb-C9V">
@@ -48,6 +48,9 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="9qI-0m-1Jp" secondAttribute="trailing" constant="13" id="w8U-AO-oiA"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dateLabel" destination="Rcd-Aa-eHW" id="kWU-jl-ahY"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
