@@ -12,5 +12,8 @@
 #import "UIFont+HBZAdditions.h"
 #import "UIColor+HBZContentColor.h"
 #import "DateTools.h"
+#import "FMDB.h"
+#import "MacroUtils.h"
+#import "NSString+Addition.h"
 
 #endif /* EatRecord_PrefixHeader_pch */

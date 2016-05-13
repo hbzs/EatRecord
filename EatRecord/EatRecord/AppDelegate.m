@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "StyleConfig.h"
+#import "CreateTable.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   [StyleConfig appearance];
+  [[[CreateTable alloc] init] createTable];
   return YES;
 }
 

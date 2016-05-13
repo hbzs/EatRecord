@@ -4,6 +4,7 @@ target 'EatRecord' do
 
 pod 'DateTools'
 pod 'FMDB'
+pod 'FMDBMigrationManager'
 
 end
 
